@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    color: black !important;
+}
+
+body,
+.list-group-item,
+.card {
+    background-image: url("../assets/img/background.png") !important;
+}
+
+h4,
+h5 {
+    background-color: rgba(245, 222, 179, 0.3);
+    border-bottom: 1px solid whitesmoke;
+    padding: 3px;
+}
+
+li {
+    list-style: none;
+}
+
+#menu {
+    height: 450px;
+    padding: 0!important;
+}
+
+.border {
+    border: 3px solid cornsilk;
+}
+
+#slide-image {
+    height: 450px;
+    width: 100% !important;
+    padding: 2px !important;
+}
+
+#news-notify {
+    height: 450px;
+    padding: 0 !important;
+}
+
+.row_component {
+    height: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+}
+
+.navbar {
+    padding: 1px 1px !important;
+}
+
+iframe {
+    width: 100% !important;
+}
+
+#list-video,
+#newspaper,
+#gioi-thieu,
+#phone-contact,
+#tai-lieu,
+#lich-su,
+#lien-he,
+#tin-tuc,
+#thong-bao {
+    height: 450px;
+    width: 100%;
+}
+
+#news-post,
+#notify {
+    height: 50%;
+    padding: 5px !important;
+    margin: 0 !important;
+    display: list-item;
+    list-style: none;
+}
+
+.hidden_img {
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+}
+
+.list-group-item:hover,
+.nav-link:hover {
+    background-color: wheat;
+}
+
+#navbarNav .list-group-item {
+    padding: 0rem 0.1rem !important;
+}
+
+#navbarNav .list-group-item>a {
+    width: 100% !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.carousel-item {
+    display: block;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto;
+    height: auto;
+}
+
+.scroll {
+    height: 85%;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(175, 89, 115);
+}
+
+.card {
+    width: 95%;
+    padding: 5px 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#tree-giapha {
+    height: 100%;
+    width: 100%;
+}
+
+.nicEdit-main {
+    border: 2px solid white;
+}
+
+.tree-scroll {
+    overflow: scroll;
+}
+
+.carousel-item,
+#hidden_img {
+    width: 100vw;
+    height: 440px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 650px) {
+    #menu,
+    #slide-image,
+    #news-notif {
+        height: auto !important;
+    }
+    .carousel-item {
+        height: auto !important;
+        max-height: 400px !important;
+    }
+    #list-video,
+    #newspaper,
+    #gioi-thieu,
+    #phone-contact,
+    #tai-lieu,
+    #lich-su,
+    #lien-he,
+    #tin-tuc,
+    #thong-bao {
+        height: auto !important;
+        max-height: 450px !important;
+    }
+    #news-notify {
+        margin-top: 3rem;
+        height: auto !important;
+        max-height: 600px !important;
+    }
+}

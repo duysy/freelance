@@ -1,0 +1,9 @@
+.scroll {
+    height: 85%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#newspaper {
+    height: 600px !important;
+}
